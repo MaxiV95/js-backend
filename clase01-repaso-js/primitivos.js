@@ -13,10 +13,9 @@
 
 // // Object
 // const thisIsAnObject = {
-//   name: "Juani",
+//   name: "Maxi",
 //   age: 29
 // }
-
 
 // // Undefined
 // const thisIsUndefined = undefined;
@@ -35,28 +34,20 @@
 // console.log(numbers);
 // console.log(newNumbers)
 
-
 function Persona(nombre) {
-  this.nombre = nombre;
+	this.nombre = nombre;
 }
 
 Persona.prototype.saludar = function () {
-  return `Hola, mi nombre es ${this.nombre}`
-}
+	return `Hola, mi nombre es ${this.nombre}`;
+};
 
-const newPersona = new Persona("Juani");
-const newPersona2 = new Persona("Juani2");
+const newPersona = new Persona("Maxi");
+const newPersona2 = new Persona("Maxi2");
 
-console.log(newPersona)
+console.log(newPersona);
 console.log(newPersona.nombre);
-console.log(newPersona.saludar())
-console.log(newPersona.__proto__)
+console.log(newPersona.saludar());
+console.log(newPersona.__proto__);
 
-
-console.log(newPersona2.saludar())
-
-
-
-
-
-
+console.log(newPersona2.saludar());

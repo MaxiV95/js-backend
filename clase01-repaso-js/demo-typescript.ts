@@ -13,12 +13,12 @@ const secondArray: (number | string | boolean)[] = [1, "a", false];
 
 // Object
 interface IObject {
-  name: string;
-  age: number;
+	name: string;
+	age: number;
 }
 const thisIsAnObject: IObject = {
-  name: "Juani",
-  age: 29,
+	name: "Maxi",
+	age: 29,
 };
 
 // Undefined

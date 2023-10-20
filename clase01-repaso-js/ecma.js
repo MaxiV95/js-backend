@@ -4,10 +4,9 @@
 // const even = arr.filter((number) => number % 2 === 0)
 // console.log(even)
 
-
 // Optional chaining (?.)
 // const firstStudent = {
-//   name: "Juani",
+//   name: "Maxi",
 //   age: 29,
 //   passport: {
 //     number: 123456,
@@ -16,23 +15,22 @@
 // }
 
 // const secondStudent = {
-//   name: "Juani",
+//   name: "Maxi",
 //   age: 29,
 // }
 
 // console.log(firstStudent?.passport?.country)
 // console.log(secondStudent?.passport?.country)
 
-
 // Nullish operator (??)
 
 const age = 20;
 
 //Sin nullish operator
-const canDrive = age >= 18 ? true : false
+const canDrive = age >= 18 ? true : false;
 
 //Con nullish operator
-const canDrive2 = age >= 18 ?? false
+const canDrive2 = age >= 18 ?? false;
 
-console.log(canDrive)
-console.log(canDrive2)
+console.log(canDrive);
+console.log(canDrive2);
