@@ -1,0 +1,12 @@
+localhost:3000/api/items
+
+localhost:3000/api/items?page=2
+50-99
+
+@query
+localhost:3000/api/items?page=10
+localhost:3000/api/items?limit=100
+
+@param
+localhost:3000/api/items/:id
+localhost:3000/api/items/1
