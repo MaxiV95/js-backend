@@ -1,0 +1,16 @@
+{
+  "name": "nodejsloadbalancer",
+  "version": "0.0.0",
+  "description": "",
+  "main": "serverCluster.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "round-robin": "^1.0.0",
+    "sticky-session": "^1.1.2"
+  }
+}
